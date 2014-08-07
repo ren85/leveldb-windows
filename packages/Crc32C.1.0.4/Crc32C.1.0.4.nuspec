@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Crc32C</id>
+    <version>1.0.4</version>
+    <title>CRC-32C (Castagnoli) for C++</title>
+    <authors>Robert Važan</authors>
+    <owners>Robert Važan</owners>
+    <licenseUrl>http://crc32c.angeloflogic.com/license/</licenseUrl>
+    <projectUrl>http://crc32c.angeloflogic.com/</projectUrl>
+    <iconUrl>http://crc32c.angeloflogic.com/images/nuget-icon.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Hardware-accelerated implementation of CRC-32C (Castagnoli) with super fast software fallback for C++ projects. Don't confuse with ordinary CRC-32.</description>
+    <releaseNotes>Fixed missing constants.</releaseNotes>
+    <copyright>Copyright (c) 2013-2014 Mark Adler, Robert Važan</copyright>
+    <tags>crc crc32 crc-32 crc32c crc-32c castagnoli native</tags>
+  </metadata>
+</package>

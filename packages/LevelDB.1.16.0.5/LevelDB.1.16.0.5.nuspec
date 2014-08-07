@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>LevelDB</id>
+    <version>1.16.0.5</version>
+    <title>LevelDB for C++</title>
+    <authors>Robert Važan</authors>
+    <owners>Robert Važan</owners>
+    <licenseUrl>http://leveldb.angeloflogic.com/license/</licenseUrl>
+    <projectUrl>http://leveldb.angeloflogic.com/</projectUrl>
+    <iconUrl>http://leveldb.angeloflogic.com/images/nuget-icon.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>LevelDB is an embedded key-value database with fast random writes and fast reads of key ranges. This is a source code package that embeds LevelDB into your project.</description>
+    <releaseNotes>Initial release.</releaseNotes>
+    <copyright>Copyright (C) 2011-2014 Robert Vazan &amp; upstream LevelDB developers</copyright>
+    <tags>leveldb nosql database data fast native</tags>
+    <dependencies>
+      <dependency id="Crc32C" version="1.0.4" />
+      <dependency id="Snappy" version="1.1.1.7" />
+    </dependencies>
+  </metadata>
+</package>
